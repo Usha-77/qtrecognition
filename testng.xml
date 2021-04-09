@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="loginPackage.Log"/>
+     <class name="loginPackage.qttitle"/>
+     <class name="loginPackage.Loginclr"/>
+     
+      <class name="sendPackage.Sendkudo31"/>
+      <class name="testPackage.Sendkudo32"/>
+      <class name="sendPackage.sendkudos1"/>
+       <class name="sendPackage.activitytestcase"/>
+        <class name="testPackage.Citation"/>
+      <class name="testPackage.send34"/>
+       <class name="sendPackage.Sendrecent35"/>
+       
+       
+        <class name="searchkudo.Searchkudo41"/>
+        <class name="searchkudo.Search42"/>
+        <class name="searchkudo.Searchkudoinvalid"/>
+      
+      
+      <class name="integration.Integrate1"/>
+      
+      <class name="otherpackage.kudocount16"/>
+      <class name="otherpackage.Kudofromme"/>
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
